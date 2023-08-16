@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "checkJs": true,
+    "allowJs": true,
+    "declaration": true,
+    "declarationMap": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [
+    "./src/index.ts",
+    "./src/protos/generated/posts_pb.js",
+    "./src/protos/generated/posts_grpc_pb.js",
+    "./src/protos/generated/types/posts_grpc_pb.d.ts",
+    "./src/protos/generated/types/posts_pb.d.ts"
+  ]
+}
